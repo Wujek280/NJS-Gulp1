@@ -9,8 +9,17 @@ gulp.task('siema',function() { //nazwa taska
    
 });
 
+
+//KOMPILACJA SCSS >> CSS
 gulp.task('sass',function(){ //kompilator SASS
    return gulp.src('app/scss/**/*.scss') //przeszukuje wszystkie w scss
    .pipe(sass())
    .pipe(gulp.dest('app/scss'));
+});
+
+//OBSERWOWANIE ZMIAN W PLIKACH
+gulp.task('watch',function(){ //
+   
+ gulp.watch('app/scss/**/*.scss', ['sass']);
+   
 });
