@@ -1,18 +1,23 @@
-$base-font-color: #777;
-$nav-links-color: aliceblue;
+@import '_variables';
 
 body {
    background-color: pink;
    color: $base-font-color;
 }
 
-nav{
-   
-   ul{
+nav {
+   ul {
+      li{
+         &.first {
+            a {color: aqua}
+         }
+      }
       list-style: none;
       display: inline-block;
-      a{
+      
+      a {
          color: $nav-links-color;
+         &:hover{color:whitesmoke;}
       }
    }
 }

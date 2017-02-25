@@ -5,5 +5,9 @@ body {
 nav ul {
   list-style: none;
   display: inline-block; }
+  nav ul li.first a {
+    color: aqua; }
   nav ul a {
-    color: aliceblue; }
+    color: red; }
+    nav ul a:hover {
+      color: whitesmoke; }
