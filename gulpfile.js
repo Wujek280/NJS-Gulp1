@@ -14,7 +14,7 @@ gulp.task('siema',function() { //nazwa taska
 gulp.task('sass',function(){ //kompilator SASS
    return gulp.src('app/scss/**/*.scss') //przeszukuje wszystkie w scss
    .pipe(sass())
-   .pipe(gulp.dest('app/scss'));
+   .pipe(gulp.dest('app/css'));
 });
 
 //OBSERWOWANIE ZMIAN W PLIKACH
