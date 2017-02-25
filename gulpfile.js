@@ -19,7 +19,7 @@ gulp.task('sass',function(){ //kompilator SASS
 
 //OBSERWOWANIE ZMIAN W PLIKACH
 gulp.task('watch',function(){ //
-   
+// obserwuj  >>CO i gdzie       >> TABLICA TASKÓW
  gulp.watch('app/scss/**/*.scss', ['sass']);
    
 });
