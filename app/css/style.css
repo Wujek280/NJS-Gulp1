@@ -1,3 +1,9 @@
 body {
   background-color: pink;
   color: #777; }
+
+nav ul {
+  list-style: none;
+  display: inline-block; }
+  nav ul a {
+    color: aliceblue; }

@@ -1,6 +1,18 @@
 $base-font-color: #777;
+$nav-links-color: aliceblue;
 
 body {
    background-color: pink;
    color: $base-font-color;
+}
+
+nav{
+   
+   ul{
+      list-style: none;
+      display: inline-block;
+      a{
+         color: $nav-links-color;
+      }
+   }
 }
